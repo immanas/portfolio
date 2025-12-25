@@ -1,111 +1,92 @@
-# Manas Gantait — Software Engineering Portfolio
+# 🚀 Manas Gantait — Software, Cloud & DevOps Engineering Portfolio
 
-This repository showcases a curated set of **production-oriented software engineering projects** focused on **backend systems, cloud infrastructure, and distributed application design**.  
-Each project emphasizes **clean architecture, scalability, automation, and reliability**, following real-world engineering practices rather than toy implementations.
+This repository represents my work across **software engineering, cloud architecture, DevOps automation, and full-stack development** ☁️🌐.  
+It focuses on building **reliable backend systems**, **automated cloud infrastructure**, and **end-to-end applications**, following real-world engineering practices rather than theoretical examples.
 
 ---
 
 ## 👤 About Me
 
-I am a **final-year B.Tech Computer Science student (2026)** with a strong foundation in **software engineering principles, system design, and problem-solving**.  
-My work reflects a practical understanding of how modern software systems are **designed, deployed, tested, and operated** in cloud environments.
+I am a **final-year B.Tech Computer Science student (2026)** with hands-on experience spanning **Java backend development**, **cloud-native system design**, **DevOps automation**, and **full-stack application workflows** 💻🔧.  
+My work reflects how production systems are **designed, deployed, monitored, and evolved** across cloud environments.
 
-I focus on:
-- Writing **clear, maintainable code**
-- Designing **scalable and fault-tolerant systems**
-- Applying **automation and infrastructure-as-code**
-- Understanding systems **end-to-end**, from development to deployment
-
----
-
-## 🧩 Featured Projects
-
-### 🔹 GrowEasy — Serverless Retail Forecasting Platform
-**Tech Stack:** Java, AWS Lambda, DynamoDB, Terraform, GitHub Actions, React
-
-- Built a serverless platform to process retail demand signals and support inventory decisions.
-- Implemented event-driven workflows with scalable backend services.
-- Automated deployments using CI/CD pipelines and infrastructure-as-code.
-- Delivered a real-time analytics dashboard for operational insights.
+I actively work as:
+- ☕ **Java Developer** — backend services, APIs, and system logic
+- 🌐 **Full-Stack Developer** — integrating backend systems with usable frontends
+- ☁️ **Cloud Engineer / Cloud Architect (Entry-Level)** — designing and deploying scalable cloud resources
+- 🔁 **DevOps Engineer** — automating builds, deployments, and infrastructure workflows
 
 ---
 
-### 🔹 CloudGuard360 — Multi-Cloud Governance & Observability Platform
-**Tech Stack:** AWS, GCP, Terraform, Kubernetes, Docker, CloudWatch, IAM
+## 🧩 What This Portfolio Shows
 
-- Designed a centralized platform to monitor and govern resources across cloud providers.
-- Standardized infrastructure provisioning using reusable Terraform modules.
-- Integrated monitoring and logging for visibility into system behavior.
-- Focused on security, access control, and operational consistency.
+This repository includes:
+- 📸 **Screenshots of frontend interfaces** (UI, dashboards, user flows)
+- 🧠 **Backend and API execution views** (request handling, logic flow)
+- ☁️ **Cloud and DevOps workflows** (infrastructure setup, automation pipelines)
+- 🌐 **Portfolio visuals** demonstrating application integration and system behavior
 
----
-
-### 🔹 AutoShield — Automated Cloud Compliance & Remediation Engine
-**Tech Stack:** AWS Lambda, EventBridge, DynamoDB, CloudWatch, SNS
-
-- Built an automated system to detect and remediate cloud misconfigurations.
-- Orchestrated event-driven workflows to reduce manual operational effort.
-- Improved response times and strengthened system reliability through automation.
+Each artifact is meant to show **how systems work together**, not just isolated features.
 
 ---
 
 ## 🛠 Technical Skills
 
-**Programming Languages**  
-Java, Python, JavaScript, SQL
+### ☕ Programming & Backend
+Java, Python, JavaScript, SQL  
+Spring Boot, RESTful APIs, Event-Driven Architecture
 
-**Backend & APIs**  
-Spring Boot, RESTful API Design, Event-Driven Architecture
+### 🌐 Frontend
+React.js, HTML, CSS
 
-**Cloud Platforms**  
+### ☁️ Cloud Platforms
 AWS, GCP, Azure
 
-**DevOps & Infrastructure**  
+### 🔁 DevOps & Infrastructure
 Terraform, CloudFormation, Docker, Kubernetes, CI/CD (GitHub Actions)
 
-**Distributed Systems**  
+### 🧩 Distributed Systems
 Microservices, Scalability, Fault Tolerance, System Design
 
-**Testing & Quality**  
+### 🧪 Testing & Quality
 Unit Testing, Automated Testing, Code Reviews, Secure Coding Practices
 
-**Monitoring & Observability**  
+### 📊 Monitoring & Observability
 CloudWatch, Prometheus, Grafana
 
 ---
 
-## 🧠 Engineering Focus
+## 🧠 Engineering Approach
 
-Across all projects, I consistently prioritize:
-- Clear separation of concerns
-- Infrastructure automation over manual configuration
-- Observability and reliability as first-class concerns
-- Practical trade-off analysis rather than over-engineering
+Across my work, I consistently prioritize:
+- 🧱 Clear separation of concerns
+- 🤖 Automation over manual processes
+- 🔍 Observability and reliability as first-class concerns
+- ⚖️ Practical trade-off analysis instead of over-engineering
 
-These projects are designed to reflect **how systems are built in professional engineering teams**, not just how they work in isolation.
+The goal is always to build systems that are **understandable, operable, and dependable**.
 
 ---
 
 ## 📌 Repository Structure
 
-Each project repository includes:
-- A detailed project-specific README
-- Architecture and design explanations
-- Setup and deployment instructions
-- Clear documentation of assumptions and trade-offs
+This repository contains:
+- 📂 Organized folders for frontend, backend, and infrastructure artifacts
+- 🖼️ Visual screenshots to demonstrate functionality and workflows
+- 📝 Clear documentation explaining design decisions and assumptions
 
 ---
 
 ## 📫 Contact
 
-- **Email:** imgantait@gmail.com  
-- **LinkedIn:** https://linkedin.com/in/me-m-gantait  
-- **GitHub:** https://github.com/<your-username>  
-- **Portfolio:** <your-portfolio-link>
+- 📧 **Email:** imgantait@gmail.com  
+- 💼 **LinkedIn:** https://linkedin.com/in/me-m-gantait  
+- 🧑‍💻 **GitHub:** https://github.com/immanas 
+- 🌍 **Portfolio:**  https://code-with-manas.netlify.app/
 
 ---
 
 ## 📄 License
 
-This repository is intended for **learning, evaluation, and professional review**.  
-All projects are shared for educational and demonstration purposes.
+This repository is shared for **learning, evaluation, and professional review**.  
+All materials are provided for educational and demonstration purposes.
