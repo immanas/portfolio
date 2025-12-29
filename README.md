@@ -77,6 +77,7 @@ This repository contains:
 
 - 🖼️ Visual screenshots to demonstrate functionality and workflows
 - ![Screenshot](portfolio.png)
+-  ![Screenshot](contact.png)
 
 ---
 
