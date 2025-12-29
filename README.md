@@ -76,7 +76,7 @@ This repository contains:
 ![Screenshot](backend.png)
 
 - 🖼️ Visual screenshots to demonstrate functionality and workflows
-- 📝 Clear documentation explaining design decisions and assumptions
+- ![Screenshot](portfolio.png)
 
 ---
 
