@@ -73,6 +73,7 @@ The goal is always to build systems that are **understandable, operable, and dep
 This repository contains:
 - 📂 Organized folders for frontend, backend, and infrastructure artifacts
 - ![Screenshot](Screenshot%202025-12-26%20011251.png)
+![Screenshot](backend.png)
 
 - 🖼️ Visual screenshots to demonstrate functionality and workflows
 - 📝 Clear documentation explaining design decisions and assumptions
