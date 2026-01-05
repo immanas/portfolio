@@ -79,6 +79,29 @@ This repository contains:
 - ![Screenshot](portfolio.png)
 -  ![Screenshot](contact.png)
 
+# Portfolio Website
+
+A production-ready personal portfolio demonstrating frontend engineering, backend integration, and real-world deployment practices.
+
+---
+
+## Tech Stack Used
+
+| Layer | Technology | Purpose |
+|-----|-----------|---------|
+| Frontend | HTML5 | Page structure & content |
+| Styling | CSS3 (Custom) | Layout, animations, theming |
+| Scripting | JavaScript (Vanilla) | UI logic, API calls |
+| Backend | Java + Spring Boot | REST APIs, contact email handling |
+| API Style | REST (JSON) | Frontend ↔ Backend communication |
+| Email Service | Gmail SMTP (Spring Mail) | Contact form email delivery |
+| Build Tool | Maven | Dependency & build management |
+| Secrets Management | Environment Variables | Secure credential handling |
+| Hosting (Frontend) | **Netlify** | Static hosting with CDN |
+| Version Control | Git, GitHub | Source code management |
+
+
+
 ---
 
 ## 📫 Contact
