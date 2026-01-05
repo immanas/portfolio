@@ -56,7 +56,7 @@ CloudWatch, Prometheus, Grafana
 
 ---
 
-## 🧠 Engineering Approach
+## 🧠 Engineering Approach 
 
 Across my work, I consistently prioritize:
 - 🧱 Clear separation of concerns
