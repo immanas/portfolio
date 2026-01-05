@@ -8,7 +8,7 @@ It focuses on building **reliable backend systems**, **automated cloud infrastru
 ## 👤 About Me
 
 I am a **final-year B.Tech Computer Science student (2026)** with hands-on experience spanning **Java backend development**, **cloud-native system design**, **DevOps automation**, and **full-stack application workflows** 💻🔧.  
-My work reflects how production systems are **designed, deployed, monitored, and evolved** across cloud environments. 
+My work reflects how production systems are **designed, deployed, monitored, and evolved** across cloud environments.  
 
 I actively work as:
 - ☕ **Java Developer** — backend services, APIs, and system logic
