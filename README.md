@@ -85,7 +85,7 @@ A production-ready personal portfolio demonstrating frontend engineering, backen
 
 ---
 
-## Tech Stack Used
+## Tech Stack Used 🌐
 
 | Layer | Technology | Purpose |
 |-----|-----------|---------|
