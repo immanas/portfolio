@@ -108,7 +108,14 @@ A production-ready personal portfolio demonstrating frontend engineering, backen
 - Backend runs independently and is consumed via REST APIs
 - Environment variables are used for secure configuration
 
+---
 
+## Key Highlights
+- Real frontend → backend integration
+- Secure contact form with email delivery
+- Cloud-ready, decoupled architecture
+- No hardcoded secrets or credentials
+---
 
 ## 📫 Contact
 
