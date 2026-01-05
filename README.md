@@ -101,8 +101,14 @@ A production-ready personal portfolio demonstrating frontend engineering, backen
 | Version Control | Git, GitHub | Source code management |
 
 
-
 ---
+
+## Hosting Details
+- Frontend is deployed as a static site on **Netlify**
+- Backend runs independently and is consumed via REST APIs
+- Environment variables are used for secure configuration
+
+
 
 ## 📫 Contact
 
