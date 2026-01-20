@@ -18,7 +18,7 @@ I actively work as:
 
 ---
 
-## 🧩 What This Portfolio Shows
+## 🧩 What This Portfolio Shows 
 
 This repository includes:
 - 📸 **Screenshots of frontend interfaces** (UI, dashboards, user flows)
