@@ -82,13 +82,15 @@ if (netlifyForm) {
     sendBtn.disabled = true;
 
     try {
-      const formData = new FormData(netlifyForm);
-      formData.append("form-name", "contact"); // ✅ critical for Netlify
-
       const res = await fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams(formData).toString(),
+        body: new URLSearchParams({
+          "form-name": "contact",
+          name: name,
+          email: email,
+          message: message,
+        }).toString(),
       });
 
       if (res.ok) {
@@ -108,7 +110,6 @@ if (netlifyForm) {
     }
   });
 }
-
 /* =========================================================
    ADVANCED LEFT → RIGHT ROLE ANIMATION (SAFE)
    ========================================================= */
