@@ -447,10 +447,9 @@ body {
   text-align: left;
 }
 
-
 .overview-img {
-  width: 340px;             /* 🔑 bigger container */
-  height: 340px;
+  width: 300px;               /* reduced container */
+  height: 300px;
   background: linear-gradient(135deg, #d2dbe1, #cddcff);
   border-radius: 20px;
   display: flex;
@@ -459,15 +458,13 @@ body {
   flex-shrink: 0;
 }
 
-
 .overview-img img {
-  width: 280px;             /* 🔑 bigger photo */
+  width: 280px;               /* almost full size */
   height: 280px;
   object-fit: cover;
   border-radius: 16px;
   background: rgb(165, 190, 194);
 }
-
 
 .overview-text p {
   font-size: 18px;
