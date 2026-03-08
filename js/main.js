@@ -1,27 +1,3 @@
-/* ================= BACKEND CONNECTION TEST ================= */
-
-// 1️⃣ Health check (backend alive)
-fetch("http://localhost:8080/api/health")
-  .then(response => response.text())
-  .then(data => {
-    document.getElementById("backend-status").textContent = data;
-  })
-  .catch(error => {
-    document.getElementById("backend-status").textContent =
-      "Backend not reachable ❌";
-    console.error(error);
-  });
-
-// 2️⃣ Real API call (use backend data in UI)
-fetch("http://localhost:8080/api/profile")
-  .then(res => res.json())
-  .then(data => {
-    console.log("Profile from backend:", data);
-
-    // 🔗 CONNECT BACKEND → FRONTEND
-    document.getElementById("role-text").textContent = data.role;
-  })
-  .catch(err => console.error("Profile API error:", err));
 /* =========================================================
    PREMIUM SMOOTH SCROLL (Navbar Links)
    ========================================================= */
@@ -77,9 +53,9 @@ document.querySelectorAll(".section").forEach(section => {
   observer.observe(section);
 });
 
-// =========================================================
-// NETLIFY CONTACT FORM HANDLER
-// =========================================================
+/* =========================================================
+   NETLIFY CONTACT FORM HANDLER
+   ========================================================= */
 
 const netlifyForm = document.querySelector('form[name="contact"]');
 const formStatus = document.createElement('p');
@@ -107,6 +83,7 @@ if (netlifyForm) {
 
     try {
       const formData = new FormData(netlifyForm);
+      formData.append("form-name", "contact"); // ✅ critical for Netlify
 
       const res = await fetch("/", {
         method: "POST",
@@ -131,10 +108,12 @@ if (netlifyForm) {
     }
   });
 }
+
 /* =========================================================
    ADVANCED LEFT → RIGHT ROLE ANIMATION (SAFE)
    ========================================================= */
-   const roles = [
+
+const roles = [
   "Software Developer",
   "DevOps Engineer",
   "Full-Stack Developer",
@@ -169,7 +148,6 @@ function typeEffect() {
 }
 
 typeEffect();
-
 
 /* =========================================================
    CURSOR FOLLOW GLOW (SAFE + PERFORMANCE)
