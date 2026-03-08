@@ -77,55 +77,60 @@ document.querySelectorAll(".section").forEach(section => {
   observer.observe(section);
 });
 
-/* =========================================================
-   CONTACT FORM HANDLER (Safe Placeholder)
-   ========================================================= */
-const contactForm = document.getElementById("contactForm");
-const formStatus = document.getElementById("formStatus");
-const sendBtn = document.getElementById("sendBtn");
+// =========================================================
+// NETLIFY CONTACT FORM HANDLER
+// =========================================================
 
-if (contactForm) {
-  contactForm.addEventListener("submit", async (e) => {
+const netlifyForm = document.querySelector('form[name="contact"]');
+const formStatus = document.createElement('p');
+formStatus.style.cssText = 'margin-top:12px; font-size:14px; min-height:18px;';
+
+if (netlifyForm) {
+  netlifyForm.appendChild(formStatus);
+
+  netlifyForm.addEventListener("submit", async (e) => {
     e.preventDefault();
 
-    const name = contactForm.elements["name"].value.trim();
-    const email = contactForm.elements["email"].value.trim();
-    const message = contactForm.elements["message"].value.trim();
+    const name = netlifyForm.elements["name"].value.trim();
+    const email = netlifyForm.elements["email"].value.trim();
+    const message = netlifyForm.elements["message"].value.trim();
 
     if (!name || !email || !message) {
-      showStatus("Please fill all fields ❗", "error");
+      formStatus.textContent = "Please fill all fields ❗";
+      formStatus.style.color = "#dc2626";
       return;
     }
 
+    const sendBtn = netlifyForm.querySelector('button[type="submit"]');
     sendBtn.textContent = "Sending...";
-    sendBtn.classList.add("loading");
+    sendBtn.disabled = true;
 
     try {
-      const res = await fetch("http://localhost:8080/api/contact", {
+      const formData = new FormData(netlifyForm);
+
+      const res = await fetch("/", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name, email, message })
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(formData).toString(),
       });
 
-      const text = await res.text();
-      showStatus("✅ Message sent successfully!", "success");
-      contactForm.reset();
-
+      if (res.ok) {
+        formStatus.textContent = "✅ Message sent successfully!";
+        formStatus.style.color = "#16a34a";
+        netlifyForm.reset();
+      } else {
+        throw new Error("Server error");
+      }
     } catch (err) {
-      showStatus("❌ Failed to send. Try again.", "error");
+      formStatus.textContent = "❌ Failed to send. Try again.";
+      formStatus.style.color = "#dc2626";
       console.error(err);
     } finally {
       sendBtn.textContent = "Send";
-      sendBtn.classList.remove("loading");
+      sendBtn.disabled = false;
     }
   });
 }
-
-function showStatus(msg, type) {
-  formStatus.textContent = msg;
-  formStatus.className = `form-status show ${type}`;
-}
-
 /* =========================================================
    ADVANCED LEFT → RIGHT ROLE ANIMATION (SAFE)
    ========================================================= */
